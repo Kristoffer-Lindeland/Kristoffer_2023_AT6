@@ -1,5 +1,7 @@
+#Initializing the class
 class DataValidation:
    def __init__(self):
+       #Creating the list
        self.valid_positive_integers = []
    def validate_inputs(self, input_list):
        for input_str in input_list:
