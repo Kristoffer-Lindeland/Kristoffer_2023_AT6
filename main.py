@@ -19,10 +19,12 @@ class DataValidation:
 
 
 # Test list
-input_list = ["78", "ABC", "4"]
+input_list = ["78", "ABC", "4", "123", "-5", "678", "@@@", "D543"]
 
 
 validator = DataValidation()
 validator.validate_inputs(input_list)
 valid_integers = validator.get_valid_positive_integers()
 print(valid_integers)
+
+
